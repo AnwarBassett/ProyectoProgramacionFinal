@@ -217,7 +217,16 @@ namespace Ferreteria_Zambrano_Mayorga
 
         private void txtCantidad_Leave(object sender, EventArgs e)
         {
-            txtSubTotal.Text = (float.Parse(txtCantidad.Text) * float.Parse(txtPrecio.Text)).ToString();
+
+            try
+            {
+                txtSubTotal.Text = (float.Parse(txtCantidad.Text) * float.Parse(txtPrecio.Text)).ToString();
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Ha ocurrido un error con el dato seleccionado");
+            }
         }
 
         private void cbListProducto_SelectedIndexChanged(object sender, EventArgs e)
@@ -238,37 +247,46 @@ namespace Ferreteria_Zambrano_Mayorga
 
         private async void btnAgregar_Click(object sender, EventArgs e)
         {
+            
             try
             {
-                cbusuario.Enabled = false;
-                cbClienteList.Enabled = false;
-                int idSeleccionado = (int)cbListProducto.SelectedValue;
-                Producto p = listaproducto.Find(x => x.IdProducto == idSeleccionado);
-                if (p != null)
+                if (cbListProducto.SelectedIndex == 0)
                 {
-                    txtPrecio.Text = p.Precio.ToString();
-                }
-                SalidasDetalle newsalida = new SalidasDetalle();
-                newsalida.CantidadProducto = int.Parse(txtCantidad.Text.ToString());
-                newsalida.PrecioUnitario = double.Parse(txtPrecio.Text.ToString());
-                newsalida.SubTotal = double.Parse(txtSubTotal.Text.ToString());
-                newsalida.Id = 0;
-                newsalida.IdProducto = p.IdProducto;
-                newsalida.NombreProducto = p.NombreProducto;
-                newsalida.SalidaId = int.Parse(txtFactura.Text.ToString());
-                if (newsalida.CantidadProducto <= 0 || newsalida.PrecioUnitario <= 0 || newsalida.SubTotal <= 0 ||
-                    newsalida.IdProducto <= 0 || newsalida.NombreProducto == null || newsalida.SalidaId <= 0)
-                {
-                    MessageBox.Show("Alguno de los datos es incorrecto, verifique e intente de nuevo");
+                    MessageBox.Show("Error con datos nulo");
                 }
                 else
                 {
-                    table.Rows.Add(newsalida.Id, newsalida.IdProducto, p.NombreProducto, newsalida.CantidadProducto,
-                                     newsalida.PrecioUnitario, newsalida.SubTotal, newsalida.SalidaId);
-                    dgvFactura.DataSource = table;
-                    dgvFactura.Refresh();
+                    cbusuario.Enabled = false;
+                    cbClienteList.Enabled = false;
+                    int idSeleccionado = (int)cbListProducto.SelectedValue;
+                    Producto p = listaproducto.Find(x => x.IdProducto == idSeleccionado);
+                    if (p != null)
+                    {
+                        txtPrecio.Text = p.Precio.ToString();
+                    }
+                    SalidasDetalle newsalida = new SalidasDetalle();
+                    newsalida.CantidadProducto = int.Parse(txtCantidad.Text.ToString());
+                    newsalida.PrecioUnitario = double.Parse(txtPrecio.Text.ToString());
+                    newsalida.SubTotal = double.Parse(txtSubTotal.Text.ToString());
+                    newsalida.Id = 0;
+                    newsalida.IdProducto = p.IdProducto;
+                    newsalida.NombreProducto = p.NombreProducto;
+                    newsalida.SalidaId = int.Parse(txtFactura.Text.ToString());
+                    if (newsalida.CantidadProducto <= 0 || newsalida.PrecioUnitario <= 0 || newsalida.SubTotal <= 0 ||
+                        newsalida.IdProducto <= 0 || newsalida.NombreProducto == null || newsalida.SalidaId <= 0)
+                    {
+                        MessageBox.Show("Alguno de los datos es incorrecto, verifique e intente de nuevo");
+                    }
+                    else
+                    {
+                        table.Rows.Add(newsalida.Id, newsalida.IdProducto, p.NombreProducto, newsalida.CantidadProducto,
+                                         newsalida.PrecioUnitario, newsalida.SubTotal, newsalida.SalidaId);
+                        dgvFactura.DataSource = table;
+                        dgvFactura.Refresh();
+                    }
+                    Clear();
                 }
-                Clear();
+                
             }
             catch (Exception ex)
             {
@@ -392,6 +410,7 @@ namespace Ferreteria_Zambrano_Mayorga
                 listasalidasDet.Add(sld);
             }
         }
+        
         private async void btnGuardar_Click(object sender, EventArgs e)
         {
             cbClienteList.Enabled = true;
@@ -492,7 +511,8 @@ namespace Ferreteria_Zambrano_Mayorga
             iTextSharp.text.Font standarfont = new iTextSharp.text.Font(iTextSharp.text.Font.FontFamily.TIMES_ROMAN, 12, iTextSharp.text.Font.NORMAL, BaseColor.BLACK);
 
             Image imagen = Image.GetInstance(rutaImagen);
-            imagen.ScaleToFit(100, 100);
+            imagen.ScaleToFit(80, 80);
+            imagen.Alignment = Element.ALIGN_CENTER;
             doc.Add(imagen);
             doc.Add(new Paragraph("Factura de Ferreteria N°" + nombrePdf));
             doc.Add(Chunk.NEWLINE);
@@ -502,7 +522,8 @@ namespace Ferreteria_Zambrano_Mayorga
             doc.Add(Chunk.NEWLINE);
             doc.Add(new Paragraph("Nombre de Cliente: " + namercustomer));
             doc.Add(Chunk.NEWLINE);
-
+            doc.Add(new Paragraph("====================================="));
+            doc.Add(Chunk.NEWLINE);
 
 
             PdfPTable fac = new PdfPTable(4);
@@ -556,7 +577,7 @@ namespace Ferreteria_Zambrano_Mayorga
 
             doc.Close();
             pw.Close();
-
+            MessageBox.Show("La Factura se ha imprimido");
             Borrar();
         }
 
