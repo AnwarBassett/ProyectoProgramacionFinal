@@ -1,0 +1,48 @@
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria_Zambrano_Mayorga.ContainerPrincipal.resources
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria_Zambrano_Mayorga.FrmClientes.resources
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria_Zambrano_Mayorga.FrmProveedor.resources
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.csproj.GenerateResource.cache
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.AssemblyInfo.cs
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\bin\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.exe
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\bin\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.deps.json
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\bin\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.runtimeconfig.json
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\bin\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.dll
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\bin\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.pdb
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.dll
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\refint\Ferreteria Zambrano-Mayorga.dll
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.pdb
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.genruntimeconfig.cache
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\ref\Ferreteria Zambrano-Mayorga.dll
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria_Zambrano_Mayorga.FrmProducto.resources
+C:\Users\usuario\source\repos\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria_Zambrano_Mayorga.FrmUsuario.resources
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\bin\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.exe
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\bin\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.deps.json
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\bin\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.runtimeconfig.json
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\bin\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.dll
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\bin\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.pdb
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria_Zambrano_Mayorga.ContainerPrincipal.resources
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria_Zambrano_Mayorga.FrmProducto.resources
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria_Zambrano_Mayorga.FrmProveedor.resources
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria_Zambrano_Mayorga.FrmUsuario.resources
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.csproj.GenerateResource.cache
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.AssemblyInfo.cs
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.dll
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\refint\Ferreteria Zambrano-Mayorga.dll
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.pdb
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.genruntimeconfig.cache
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\ref\Ferreteria Zambrano-Mayorga.dll
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria_Zambrano_Mayorga.Properties.Resources.resources
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria_Zambrano_Mayorga.FrmFactura.resources
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria_Zambrano_Mayorga.Form1.resources
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\bin\Debug\net6.0-windows\itextsharp.dll
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria Zambrano-Mayorga.csproj.CopyComplete
+C:\Users\usuario\source\repos\Proyecto\Ferreteria Zambrano-Mayorga\obj\Debug\net6.0-windows\Ferreteria_Zambrano_Mayorga.FrmCliente.resources
